@@ -29,4 +29,20 @@
 .col-md-4 {
     float: left;
     text-align: center;
+    /* height: 20px;
+    width: 30px; */
 }
+.portfolio :hover {
+    border-radius: 15%;
+    background-color: black;
+
+   
+}
+/* .portfolio {
+    float: left;
+} */
+/* .col-md-3 {
+    height: 20px;
+    width: 20px;
+    float: left;
+} */
