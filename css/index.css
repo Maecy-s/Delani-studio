@@ -12,3 +12,21 @@
 .about {
     text-align: center;
 }
+
+.service {
+    background-image: url(/images/backgrounds/s_image.jpg);
+    height: 350px;
+    text-align: center;
+    color: whitesmoke;
+    
+    
+}
+.what {
+    columns: md-4px;
+    float: right;
+}
+
+.col-md-4 {
+    float: left;
+    text-align: center;
+}
