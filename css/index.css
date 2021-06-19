@@ -17,32 +17,18 @@
     background-image: url(/images/backgrounds/s_image.jpg);
     height: 350px;
     text-align: center;
-    color: whitesmoke;
-    
-    
-}
-.what {
-    columns: md-4px;
-    float: right;
+    color: whitesmoke;   
 }
 
-.col-md-4 {
-    float: left;
-    text-align: center;
-    /* height: 20px;
-    width: 30px; */
-}
-.portfolio :hover {
-    border-radius: 15%;
-    background-color: black;
+.contact {
+    background-image: url(/images/backgrounds/c_image.jpg);
+    align-content: center;
 
-   
 }
-/* .portfolio {
-    float: left;
-} */
-/* .col-md-3 {
-    height: 20px;
-    width: 20px;
-    float: left;
-} */
+form {
+    background-image: url(/images/backgrounds/c_image.jpg);
+}
+
+.social {
+border-radius: 50%;
+}

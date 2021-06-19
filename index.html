@@ -7,7 +7,7 @@
     <title>Delani Studio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
 </head>
@@ -63,7 +63,7 @@
         <br>
         <br>
         <div class="what">
-            
+
             <div class="col-md-4">
                 <!-- <h6>DESIGN</h6> -->
                 <div class="design_icon">
@@ -82,35 +82,39 @@
                 </div>
 
             </div>
-          
+
             <div class="col-md-4">
                 <div class="dev">
                     <img src="/images/services_icons/dev_icon.png" alt="image">
                 </div>
-                <h6>DEVELOPMENT</h6>
-                <p>
-                    All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                </p>
-                <p>
-                    They colaborate with your team to write, and improve code on a daily basis, using proven practices
-                    such as test-driven development and pair programming.
-                </p>
+                <button>DEVELOPMENT</button>
+                <div class="deve">
+                    <p>
+                        All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                    </p>
+                    <p>
+                        They colaborate with your team to write, and improve code on a daily basis, using proven practices
+                        such as test-driven development and pair programming.
+                    </p>
+                </div>
+               
             </div>
-       
+
             <div class="col-md-4">
                 <div class="pm">
                     <img src="/images/services_icons/product_icon.png" alt="">
                 </div>
-                <h6>PRODUCT MANAGEMENT</h6>
-                <p>
-                    Planning and development is iterative. Because we are constantly coding and testing, the products we
-                    build are always ready to go live.
-                </p>
-                <p>
-                    This iterative process allows for changes as business requirements evolve.
-                </p>
-
-
+                <button>PRODUCT MANAGEMENT</button>
+                <div class="pro">
+                    <p>
+                        Planning and development is iterative. Because we are constantly coding and testing, the products we
+                        build are always ready to go live.
+                    </p>
+                    <p>
+                        This iterative process allows for changes as business requirements evolve.
+                    </p>
+                </div>
+             
             </div>
         </div>
         <br>
@@ -118,46 +122,69 @@
         <div class="portfolio">
             <br>
             <br>
-            <h4>PORTFOLIO</h4>
-            <div class="col-md-4">
-                <img src="/images/portfolio/work1.jpg" alt="image">
+            <div class="compct">
+                <h4>PORTFOLIO</h4>
+                <div class="col">
+                    <img src="/images/portfolio/work1.jpg" alt="image">
+                </div>
+            
+                <div class="col">
+                    <img src="/images/portfolio/work2.jpg" alt="image">
+                </div>
+            
+                <div class="col">
+                    <img src="/images/portfolio/work3.jpg" alt="image">
+                </div>
+            
+                <div class="col">
+                    <img src="/images/portfolio/work4.jpg" alt="image">
+                </div>
+            
+                <div class="col">
+                    <img src="/images/portfolio/work5.jpg" alt="image">
+                </div>
+            
+                <div class="col">
+                    <img src="/images/portfolio/work6.jpg" alt="image">
+                </div>
+            
+                <div class="col">
+                    <img src="/images/portfolio/work7.jpg" alt="image">
+                </div>
+            
+                <div class="col">
+                    <img src="/images/portfolio/work8.jpg" alt="image">
+                </div>
             </div>
-            
-            <div class="col-md-4">
-                <img src="/images/portfolio/work2.jpg" alt="image">
-            </div>
-            
-            <div class="col-md-4">
-                <img src="/images/portfolio/work3.jpg" alt="image">
-            </div>
-            
-            <div class="col-md-4">
-                <img src="/images/portfolio/work4.jpg" alt="image">
-            </div>
-            
-            <div class="col-md-4">
-                <img src="/images/portfolio/work5.jpg" alt="image">
-            </div>
-            
-            <div class="col-md-4">
-                <img src="/images/portfolio/work6.jpg" alt="image">
-            </div>
-            
-            <div class="col-md-4">
-                <img src="/images/portfolio/work7.jpg" alt="image">
-            </div>
-            
-            <div class="col-md-4">
-                <img src="/images/portfolio/work8.jpg" alt="image">
-            </div>
-            
-            
-
         </div>
-        <div class="contact">
-            <form>
+        <br>
 
-            </form>
+        <div class="contact">
+            <h5>CONTACT US</h5>
+            <div class="for">
+                <form action="/action_page.php">
+        
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Name">
+        
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+        
+                    <label for="subject"></label>
+                    <br>
+                    <textarea name="subject" id="subject" cols="100" rows="10">Your message here...</textarea>
+        
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="social">
+            <img src="/images/social_icons/behance.png" alt="image">, <img src="/images/social_icons/dribble.png" alt="image">, <img src="/images/social_icons/facebook.png" alt="image">,
+            <img src="/images/social_icons/flickr.png" alt="image">, <img src="/images/social_icons/g_plus.png" alt="image">, <img src="/images/social_icons/pinterest.png" alt="image">,
+            <img src="/images/social_icons/skype.png" alt="image">, <img src="/images/social_icons/stumble_upon.png" alt="image">, <img src="/images/social_icons/twitter.png" alt="image">,
+            <img src="/images/social_icons/you_tube.png" alt="image">
         </div>
     </div>
 </body>
