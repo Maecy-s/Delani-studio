@@ -26,7 +26,37 @@
     color: snow;
     font-weight: 500;
 }
+.what {
+    text-align: center;
+}
+.col-md-4 {
+    float: left;
+}
+#des {
+  
+        width: 90%;
+        padding: 20px 0;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 10px;
+}
+#deve {
+  
+    width: 90%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 10px;
+}
 
+#pro {
+  
+    width: 90%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 10px;
+}
 .contact {
     background-image: url(/images/backgrounds/c_image.jpg);
     text-align: center;
@@ -54,4 +84,8 @@ label {
 #subject {
     background: transparent;
     margin: 20px;
+}
+.social {
+    padding: 30px;
+    text-align: center;
 }
