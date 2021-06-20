@@ -26,13 +26,39 @@
     color: snow;
     font-weight: 500;
 }
+#container {
+    height: 400px;
+    width: 100%;
+
+}
+#container h4 {
+    text-align: center;
+}
+.container {
+    width: 70%;
+    padding: 20px;
+}
+
 .what {
     text-align: center;
+    display: flex;
+    width: 100%;
+    padding: 50px;
+
+}
+.main {
+    width: 50%;
+   
+}
+#des p {
+   display: none;
+
+    
 }
 .col-md-4 {
     float: left;
 }
-#des {
+/* #des {
   
         width: 90%;
         padding: 20px 0;
@@ -56,19 +82,50 @@
     text-align: center;
     background-color: lightblue;
     margin-top: 10px;
+} */
+
+
+#parargraph {
+    width: 100%;
+    
+    
+    
+}
+.para {
+    width: 80%;
+    padding-right: 20px;
+    display: none;
+}
+
+h4 {
+    
+}
+.project {
+    position: relative;
+}
+.portfolio h4 {
+    text-align: center;
+}
+.port {
+    position: absolute;
+    display: none;
+    bottom: 50px;
+    padding: 30px;
+    
+}
+
+.project h4:hover{
+    color: yellow;
+    background: cyan;
+    padding: 17px 25px;
+
+
 }
 .contact {
     background-image: url(/images/backgrounds/c_image.jpg);
     text-align: center;
     color: white;
 
-}
-form {
-    background-image: url(/images/backgrounds/c_image.jpg);
-}
-
-.social {
-border-radius: 50%;
 }
 input {
     background: transparent;
@@ -84,8 +141,10 @@ label {
 #subject {
     background: transparent;
     margin: 20px;
+    color: white;
 }
 .social {
     padding: 30px;
     text-align: center;
+    border-radius: 50%;
 }
