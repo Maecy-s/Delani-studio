@@ -44,52 +44,17 @@
     display: flex;
     width: 100%;
     padding: 50px;
+    align-content: center;
 
 }
 .main {
     width: 50%;
    
 }
-#des p {
-   display: none;
-
-    
-}
-.col-md-4 {
-    float: left;
-}
-/* #des {
-  
-        width: 90%;
-        padding: 20px 0;
-        text-align: center;
-        background-color: lightblue;
-        margin-top: 10px;
-}
-#deve {
-  
-    width: 90%;
-    padding: 20px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 10px;
-}
-
-#pro {
-  
-    width: 90%;
-    padding: 20px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 10px;
-} */
-
 
 #parargraph {
     width: 100%;
-    
-    
-    
+       
 }
 .para {
     width: 80%;
@@ -97,9 +62,6 @@
     display: none;
 }
 
-h4 {
-    
-}
 .project {
     position: relative;
 }
